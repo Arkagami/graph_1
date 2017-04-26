@@ -21,7 +21,7 @@ int main(void){
 			y = a*x + b;
 		}
 	}
-	vc << "\nd(Time) - " << (clock() - t) / 7000 << "." << (clock() - t) % 7000 << " seconds";
+	vc << "\nd(Time) - " << (clock() - t) / 1000 << "." << (clock() - t) % 1000 << " seconds";
 		GFlush();
 		TFlush();
 	t = clock();
@@ -36,7 +36,7 @@ int main(void){
 			y = (a1*x + b1) / k;
 		}
 	}
-	vc << "\nd(Time) - " << (clock() - t) / 7000 << "." << (clock() - t) % 7000 << " seconds";
+	vc << "\nd(Time) - " << (clock() - t) / 1000 << "." << (clock() - t) % 1000 << " seconds";
 	GFlush();
 	TFlush();
 	t = clock();
@@ -56,7 +56,7 @@ int main(void){
 			x += 1;
 		}
 	}
-	vc << "\nd(Time) - " << (clock() - t) / 7000 << "." << (clock() - t) % 7000 << " seconds";
+	vc << "\nd(Time) - " << (clock() - t) / 1000 << "." << (clock() - t) % 1000 << " seconds";
 	GFlush(); 
 	TFlush();
 	t = clock();
@@ -82,7 +82,7 @@ int main(void){
 			x += 1;
 		}
 	}
-	vc << "\nd(Time) - " << (clock() - t) / 7000 << "." << (clock() - t) % 7000 << " seconds";
+	vc << "\nd(Time) - " << (clock() - t) / 1000 << "." << (clock() - t) % 1000 << " seconds";
 	GFlush();
 	TFlush();
 	
