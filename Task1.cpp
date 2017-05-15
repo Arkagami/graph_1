@@ -1,6 +1,8 @@
 #include <time.h>
 #include "vstub.h"
 
+//What am I doing there? Ya ved' sishy d telefona. Neysheli ya s telefona toshe mogy commitit'???
+
 namespace std{
 
 int main(void){
@@ -11,7 +13,7 @@ int main(void){
 	drawgrid();
 	t = clock();
 	setcolor(255, 255, 0);
-	// обычное построение по точкам
+	// Г®ГЎГ»Г·Г­Г®ГҐ ГЇГ®Г±ГІГ°Г®ГҐГ­ГЁГҐ ГЇГ® ГІГ®Г·ГЄГ Г¬
 	for (int i = 0; i < 7000; i++) {
 		x = 0; y = 0;
 		while (x < 300)
@@ -25,7 +27,7 @@ int main(void){
 		GFlush();
 		TFlush();
 	t = clock();
-	// целочисленное уравнение прямой
+	// Г¶ГҐГ«Г®Г·ГЁГ±Г«ГҐГ­Г­Г®ГҐ ГіГ°Г ГўГ­ГҐГ­ГЁГҐ ГЇГ°ГїГ¬Г®Г©
 	setcolor(255, 0, 0);
 	for (int i = 0; i < 7000; i++) {
 		x = 0; y = 0;
@@ -40,7 +42,7 @@ int main(void){
 	GFlush();
 	TFlush();
 	t = clock();
-	// алгоритм Брезенхэма
+	// Г Г«ГЈГ®Г°ГЁГІГ¬ ГЃГ°ГҐГ§ГҐГ­ГµГЅГ¬Г 
 	setcolor(0, 255, 0);
 	for (int i = 0; i < 7000; i++) {
 		x = 50; y = 0;
@@ -60,7 +62,7 @@ int main(void){
 	GFlush(); 
 	TFlush();
 	t = clock();
-	// целочисленный алгоритм Брезенхэма
+	// Г¶ГҐГ«Г®Г·ГЁГ±Г«ГҐГ­Г­Г»Г© Г Г«ГЈГ®Г°ГЁГІГ¬ ГЃГ°ГҐГ§ГҐГ­ГµГЅГ¬Г 
 	setcolor(0, 0, 255);
 	for (int i = 0; i < 7000; i++) {
 		x = 75; y = 0;
